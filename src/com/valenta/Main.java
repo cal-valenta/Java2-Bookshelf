@@ -29,6 +29,15 @@ public class Main {
             System.out.println(bookshelf.get(i));
 
         }
+        bookshelf.remove(0);
+        bookshelf.indexOf(b1);
+        bookshelf.indexOf(b2);
+        bookshelf.indexOf(b3);
+        bookshelf.indexOf(b4);
+
+        bookshelf.set(1, b4);
+        bookshelf.forEach(System.out::println);
+
 
     }
 }
